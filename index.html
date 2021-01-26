@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Anexinet Testss</title>
+</head>
+<body>
+
+    <div class="testsContainer">
+        <div class="test">
+            <div class="test-title"><h3>1. Write a function that adds two numbers without using any arithmetic operators.</h3></div>
+            <div class="line"></div>
+            <div class="test-code">
+                <div class="inputs-container">
+                    <div class="input-box">
+                        <label for="ex_1_num_1"> Number 1 </label>
+                        <input type="text" name="ex_1_num_1" id="ex_1_num_1" class="input-text">
+                    </div>
+                    <div class="input-box">
+                        <label for="ex_1_num_1"> Number 2 </label>
+                        <input type="text" name="ex_1_num_2" id="ex_1_num_2" class="input-text">
+                    </div>
+                    <div class="input-box input-box-button">
+                        <button class= "btn" id="ex_1_submit"> Sum Numbers </button>
+                    </div>
+                    
+                </div>
+            </div>
+            <h3 class="resultTitle">Result</h3>
+            <div class="test-result" id="ex_1_result"></div>
+        </div>
+
+
+        <div class="test">
+            <div class="test-title"><h3>2. Given 2 strings of unknown characters (but it cannot be repeated) create a function 
+                that returns an array of the characters that are repeated in both strings in
+                the most efficient way.</h3></div>
+            <div class="line"></div>
+            <div class="test-code">
+                <div class="inputs-container">
+                    <div class="input-box">
+                        <label for="ex_2_string_1"> String 1 </label>
+                        <input type="text" name="ex_2_string_1" id="ex_2_string_1" class="input-text">
+                    </div>
+                    <div class="input-box">
+                        <label for="ex_2_string_2"> String 2 </label>
+                        <input type="text" name="ex_2_string_2" id="ex_2_string_2" class="input-text">
+                    </div>
+                    <div class="input-box input-box-button">
+                        <button class= "btn" id="ex_2_submit"> Get Repeated Strings </button>
+                    </div>
+                    
+                </div>
+            </div>
+            <h3 class="resultTitle">Result</h3>
+            <div class="test-result" id="ex_2_result"></div>
+        </div>
+
+
+        <div class="test">
+            <div class="test-title"><h3>3. Write a function that takes a string containing a number in base X along with an integer 
+                of the base X. The function must return the integer value of that string/base pair. E.g.,</h3></div>
+            <div class="line"></div>
+            <div class="test-code"></div>
+            <div class="test-result"></div>
+        </div>
+
+
+        <div class="test">
+            <div class="test-title"><h3> 4. Write a function such that if an element in an MxN matrix is 0 , its entire row and column are set to 0 and then printed out. </h3></div>
+            <div class="line"></div>
+            <div class="test-code">
+                <pre>
+                    // Original input
+                        [
+                            [1, 2, 3],
+                            [4, 0, 6],
+                            [7, 8, 9]
+                        ]
+                        // Result
+                        [
+                            [1, 0, 3],
+                            [0, 0, 0],
+                            [7, 0, 9]
+                        ]
+                </pre>
+            </div>
+            <div class="test-code">
+                <div class="inputs-container">
+                    <div class="input-box">
+                        <label for="ex_4_array_1"> Array 1 (Comma separated) </label>
+                        <input type="text" name="ex_4_array_1" id="ex_4_array_1" class="input-text" placeholder="1,2,3">
+                    </div>
+                    <div class="input-box">
+                        <label for="ex_4_array_2"> Array 2 (Comma separated) </label>
+                        <input type="text" name="ex_4_array_2" id="ex_4_array_2" class="input-text" placeholder="4,0,8">
+                    </div>
+
+                    <div class="input-box">
+                        <label for="ex_2_array_3"> Array 3 (Comma separated) </label>
+                        <input type="text" name="ex_4_array_3" id="ex_4_array_3" class="input-text" placeholder="7,8,9">
+                    </div>
+
+                    <div class="input-box input-box-button">
+                        <button class= "btn" id="ex_4_submit"> Get New Matrix </button>
+                    </div>
+                    
+                </div>
+            </div>
+            <h3 class="resultTitle">Result</h3>
+            <div class="test-result" id="ex_4_result"></div>
+        </div>
+
+
+        <div class="test">
+            <div class="test-title"><h3> 5. Write a function that convert the given number into a Roman Numeral - The function needs to receive a Number and Return a String (The Number can be
+                between 1 and 3999) </h3></div>
+            <div class="line"></div>
+            <div class="test-code">
+                <div class="inputs-container">
+                    <div class="input-box">
+                        <label for="ex_5_number"> Natural Number</label>
+                        <input type="text" name="ex_5_number" id="ex_5_number" class="input-text" placeholder="512">
+                    </div>
+                    
+                    <div class="input-box input-box-button">
+                        <button class= "btn" id="ex_5_submit"> Get Roman Number </button>
+                    </div>
+                    
+                </div>
+            </div>
+            <h3 class="resultTitle">Result</h3>
+            <div class="test-result" id="ex_5_result"></div>
+        </div>
+
+
+        <div class="test">
+            <div class="test-title"><h3> 6. Write a function to print all permutations of a string. Max string length can be 50 characters. </h3></div>
+            <div class="line"></div>
+            <div class="test-code">
+                <div class="inputs-container">
+                    <div class="input-box">
+                        <label for="ex_6_word"> Word </label>
+                        <input type="text" name="ex_6_word" id="ex_6_word" class="input-text" placeholder="lorem">
+                    </div>
+                    
+                    <div class="input-box input-box-button">
+                        <button class= "btn" id="ex_6_submit"> Get Permutations </button>
+                    </div>
+                    
+                </div>
+            </div>
+            <h3 class="resultTitle">Result</h3>
+            <div class="test-result" id="ex_6_result"></div>
+        </div>
+
+
+        <div class="test">
+            <div class="test-title"><h3> 7. Write a function that receives a sentence, and return the longest word, if two or more words has the same lenght, they are returned as an array, but can't return
+                duplicated words. </h3></div>
+            <div class="line"></div>
+            <div class="test-code">
+                <div class="inputs-container">
+                    <div class="input-box">
+                        <label for="ex_7_sentence"> Sentence</label>
+                        <input type="text" name="ex_7_sentence" id="ex_7_sentence" class="input-text" placeholder="lorem ipsum">
+                    </div>
+                    
+                    <div class="input-box input-box-button">
+                        <button class= "btn" id="ex_7_submit"> Get Longest Word(s) </button>
+                    </div>
+                    
+                </div>
+            </div>
+            <h3 class="resultTitle">Result</h3>
+            <div class="test-result" id="ex_7_result"></div>
+        </div>
+
+    </div>
+    <script src="./anexinet-test.js"></script>
+</body>
+</html>
